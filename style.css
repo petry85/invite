@@ -12,6 +12,9 @@ body {
 
 .container {
   text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .fade-in {
@@ -25,6 +28,8 @@ body {
 
 .button-wrapper{
     margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 @keyframes fadeIn {
   to {
@@ -48,6 +53,13 @@ body {
 .btn:hover {
   background-color: #e65c00;
 }
+
+/*responsividade*/
+@media (max-width: 480px) {
+  .btn {
+    font-size: 18px;
+    padding: 14px 28px;
+  }
 
 
 

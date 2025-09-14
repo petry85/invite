@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0c2a;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 3s ease-in forwards;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto
+}
+
+.button-wrapper{
+    margin-top: 20px;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 16px 32px;
+  background-color: #ff6f00;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  animation: fadeIn 3s ease-in forwards;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+}
+
+
+
